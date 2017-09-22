@@ -46,7 +46,13 @@
 				<ul>
 					<li><a href="index.php?category=inicio">Inicio</a></li>
 					<li><a>Informacion</a></li>
-					<li><a>Tiendas</a></li>
+					<?php
+						if(isset($_SESSION["user"])){ ?>
+							<li><a href="index.php?category=perfil">Perfil</a></li>
+						<?php
+						}else{ ?>
+							<li><a href="index.php?category=registro">Registro</a></li>
+						<?php } ?>
 					<li><a href="index.php?category=contacto">Contacto</a></li>
 				</ul>
 			</nav>
