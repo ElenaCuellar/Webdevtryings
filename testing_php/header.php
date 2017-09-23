@@ -11,6 +11,7 @@
 		<meta name="application-name" content="Venta de productos">
 		<meta name="description" content="Ejemplo de web para la venta de productos">
 		<link rel="stylesheet" type="text/css" href="estilos.css"/>
+		<script type="text/javascript" charset="utf-8" src="funcionesPerfil.js"></script>
 		
 	</head>
 	<body>

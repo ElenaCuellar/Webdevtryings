@@ -12,8 +12,16 @@
 			
 			<article class="princ">
 				<form id="perfil" action="" method="post">
-					<input id="bpass" type="submit" value="Cambiar contraseña"><br>
-					<input id="bborrar" type="submit" value="Borrar cuenta"><br>
+					<input id="bpass" type="button" value="Cambiar contraseña" onclick="mostrarNuevaPass()"><br>
+					<input id="bborrar" type="button" value="Borrar cuenta" onclick="mostrarBorrar()"><br>
+					<fieldset id="camposPass">
+						Nueva contraseña:<br>
+						<input type="text" name="nuevaPass"><br>
+						<input id="bnuevaPass" type="submit" value="Cambiar"><br>
+					</fieldset>
+					<fieldset id="camposBorrar">
+						<input id="bBorrar" type="submit" value="Eliminar"><br>
+					</fieldset>
 				</form>
 			</article>
 			

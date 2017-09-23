@@ -126,3 +126,7 @@ footer a:hover, footer a:active{
 #registro #bsubmit {
 	margin-top: 2%;
 }
+/*PERFIL*/
+#camposPass, #camposBorrar{
+	visibility: hidden;
+}
