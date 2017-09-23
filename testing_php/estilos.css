@@ -127,6 +127,17 @@ footer a:hover, footer a:active{
 	margin-top: 2%;
 }
 /*PERFIL*/
-#camposPass, #camposBorrar{
+#camposPass{
 	visibility: hidden;
+	background-color:#247BA0;
+	text-align:center;
+}
+#bpass, #bborrar {
+	text-align:center;
+	margin-bottom:1%;
+	margin-top:1%;
+	margin-left:40%;
+}
+#bborrar{
+	margin-left:42%;
 }

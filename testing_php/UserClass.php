@@ -24,6 +24,10 @@
 			$this->dbAccess->query("update Usuarios set Name='$us', Password='$ps', Type='$tp' where Id='$id'");
 		}
 		
+		public function updatePass($id,$newPs){
+			$this->dbAccess->query("update Usuarios set Password='$newPs' where Id='$id'");
+		}
+		
 		public function deleteUser($id){
 			$this->dbAccess->query("DELETE FROM Usuarios WHERE Id='$id'");
 		}
